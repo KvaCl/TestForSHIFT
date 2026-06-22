@@ -23,7 +23,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/YOUR_USERNAME/booking.git
+git clone https://github.com/KvaCl/TestForSHIFT
 cd booking
 
 # Запустить приложение + PostgreSQL
@@ -40,7 +40,7 @@ docker-compose down -v
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/YOUR_USERNAME/booking.git
+git clone https://github.com/KvaCl/TestForSHIFT
 cd booking
 
 # Запустить приложение + PostgreSQL
@@ -60,7 +60,7 @@ docker-compose down
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/YOUR_USERNAME/booking.git
+git clone https://github.com/KvaCl/TestForSHIFT
 cd booking
 
 # Установить Poetry (если не установлен)
