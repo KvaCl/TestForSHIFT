@@ -17,31 +17,12 @@
 
 ## Установка и запуск
 
-### Вариант 1: Через Docker Compose (рекомендуется)
-
-Самый простой способ — запустить всё одной командой.
-
-```bash
-# Клонировать репозиторий
-git clone https://github.com/KvaCl/TestForSHIFT
-cd booking
-
-# Запустить приложение + PostgreSQL
-docker-compose up --build
-
-# Остановить
-docker-compose down
-
-# Остановить и удалить данные БД
-docker-compose down -v
-```
 ### Вариант 1: Через Docker Compose 
 
-
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/KvaCl/TestForSHIFT
-cd booking
+cd TestForSHIFT
 
 # Запустить приложение + PostgreSQL
 docker-compose up --build
@@ -61,7 +42,7 @@ docker-compose down
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/KvaCl/TestForSHIFT
-cd booking
+cd TestForSHIFT
 
 # Установить Poetry (если не установлен)
 pip install poetry
